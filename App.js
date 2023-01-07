@@ -9,7 +9,6 @@ export default function App() {
       <Text>
         <Focus />
       </Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
@@ -18,7 +17,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.darkblue,
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
